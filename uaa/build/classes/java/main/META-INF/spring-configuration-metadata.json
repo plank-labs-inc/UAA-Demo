@@ -1,0 +1,77 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.plank.demo.config.ApplicationProperties",
+      "name": "application",
+      "type": "com.plank.demo.config.ApplicationProperties"
+    },
+    {
+      "sourceType": "com.plank.demo.config.CloudDatabaseConfiguration",
+      "name": "spring.datasource.hikari",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties",
+      "name": "uaa",
+      "type": "com.plank.demo.config.UaaProperties"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties",
+      "name": "uaa.key-store",
+      "sourceMethod": "getKeyStore()",
+      "type": "com.plank.demo.config.UaaProperties$KeyStore"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties",
+      "name": "uaa.web-client-configuration",
+      "sourceMethod": "getWebClientConfiguration()",
+      "type": "com.plank.demo.config.UaaProperties$WebClientConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$KeyStore",
+      "defaultValue": "selfsigned",
+      "name": "uaa.key-store.alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$KeyStore",
+      "defaultValue": "config\/tls\/keystore.p12",
+      "name": "uaa.key-store.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$KeyStore",
+      "defaultValue": "password",
+      "name": "uaa.key-store.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$WebClientConfiguration",
+      "defaultValue": 0,
+      "name": "uaa.web-client-configuration.access-token-validity-in-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$WebClientConfiguration",
+      "defaultValue": "web_app",
+      "name": "uaa.web-client-configuration.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$WebClientConfiguration",
+      "defaultValue": 0,
+      "name": "uaa.web-client-configuration.refresh-token-validity-in-seconds-for-remember-me",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.plank.demo.config.UaaProperties$WebClientConfiguration",
+      "defaultValue": "changeit",
+      "name": "uaa.web-client-configuration.secret",
+      "type": "java.lang.String"
+    }
+  ]
+}

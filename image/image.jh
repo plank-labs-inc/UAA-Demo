@@ -1,0 +1,10 @@
+entity Image {
+  desc String required unique,
+  created ZonedDateTime required
+}
+dto Image with mapstruct
+paginate Image with pagination
+service Image with serviceImpl
+microservice Image with images
+filter Image
+clientRootFolder Image with images
