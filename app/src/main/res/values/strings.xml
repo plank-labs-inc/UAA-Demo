@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UAADemo</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">ENTER THE HEN HOUSE</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+</resources>

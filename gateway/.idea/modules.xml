@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.plank.demo.gateway.test.iml" />
+    </modules>
+  </component>
+</project>
